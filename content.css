@@ -208,13 +208,16 @@ body{
     flex-wrap: wrap;
     column-gap: 20px;
     background-color: rgba(7, 84, 28, 0.45);
-    justify-content: space-evenly;   
+    justify-content: space-between;   
 }
 .ftrlink a{
     text-decoration: none;
     color: rgb(0, 0, 0);
    
    }
+#followuson{
+    margin-right:25px
+}
 #followuson #img{
     height: 30px;
     width: 30px;
