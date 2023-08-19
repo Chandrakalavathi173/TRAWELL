@@ -73,7 +73,7 @@ body{
     right: 10px;
     top: 80px;
     min-width: 30%;
-    background-color:rgb(7, 84, 28,0.35) ;
+    background-color:rgba(7, 84, 28, 0.35) ;
     /* backdrop-filter: blur(165px); */
     border-radius: 5px;
     z-index: 1;
@@ -89,7 +89,8 @@ body{
 }
 .drop-down a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
     /* font-weight: 600; */
 }
 .drop-down a:hover{
@@ -157,25 +158,13 @@ font-weight: bold;
  color:black;
  text-align: center;
 }
-@media(max-width:665px){
-    .start p{
-        font-size: 40px;
-        color: white;
-    }
-    .start .sub-title{
-        font-size: 17px;
-        color: white;
-    }
-    .start button{
-        margin-left: 100px;
-    }
-}
+
 .b{
    
     font-size: 3px;
 }
- button{
-    height: 50px;
+.start button{
+    min-height: 50px;
     width: 200px;
     background-color:white;
     border: 1px solid white;
@@ -191,6 +180,20 @@ button a{
     text-decoration: none;
     color: black;   
 } 
+@media(max-width:665px){
+    .start p{
+        font-size: 35px;
+        color: white;
+    }
+    .start .sub-title{
+        font-size: 15px;
+        color: white;
+    }
+    .start button{
+        margin-left: 100px;
+    }
+    
+}
 #aboutus{
     margin-top: 15px;
     min-width: 50%;
@@ -270,16 +273,17 @@ input{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 20px;
     background-color: rgba(7, 84, 28, 0.7);
-    justify-content: space-evenly;      
+    justify-content: space-between;      
 }
 .ftrlink a{
  text-decoration: none;
  color: rgb(0, 0, 0);
 
 }
-
+#followuson{
+    margin-right: 25px;
+}
 #followuson #img{
     height: 30px;
     width: 30px;   
