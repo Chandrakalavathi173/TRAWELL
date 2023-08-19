@@ -58,20 +58,6 @@ body{
     font-style: italic;
 }
 
-/* responsive design*/
-@media(max-width:962px){
-    .nav-bar-links{
-        display: none;
-    }
-    .nav-bar-toggle{
-        display: block;
-
-    }
-    .drop-down {
-        display: block;
-    }
-}
-
 /*dropdownmenu*/
 .drop-down{
     display: none;
@@ -98,18 +84,7 @@ body{
 .drop-down a:hover{
     transform: scale(1.1);
 }
-@media(max-width:962px){
-    .nav-bar-links{
-        display: none;
-    }
-    .nav-bar-toggle{
-        display: block;
 
-    }
-    .drop-down {
-        display: block;
-    }
-}
 
 .contentcontainer{
     min-height: 600px;
@@ -150,7 +125,7 @@ body{
     border-radius: 10px;
 }
 .card-body{
-    width: 78%;
+    width: 90%;
     height: 100%;
     top: -10%;
     right: -100%;
@@ -159,7 +134,7 @@ body{
     backdrop-filter: blur(6px);
     border-radius: 10px;
     color:  white;
-   padding: 30px;
+   padding: 20px 15px 20px 20px ;
    display: flex;
    line-height: 1px;
    flex-direction: column;
@@ -202,7 +177,27 @@ body{
 
 
 }
-
+/* responsive design*/
+@media(max-width:940px){
+    .nav-bar-links{
+        display: none;
+    }
+    .nav-bar-toggle{
+        display: block;
+    }
+    .drop-down{
+        display: block;
+    }
+    .hdr{
+        margin-top: 180px;
+    }
+    .card-title{
+        font-size: 23px;
+    }
+    .card-sub-title{
+        font-size: 14px;
+    }
+}
 
 .ftr{
     margin-top: 10px;
